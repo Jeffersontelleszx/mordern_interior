@@ -1,0 +1,67 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  /* Fonts */
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Lora", serif;
+
+  /* Color */
+  --dark-color: #181719;
+  --light-color: #ffffff;
+  --gray-color: #828282;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+a {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+/* Container */
+.container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 42px auto;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: block;
+  font-size: 14px;
+  font-weight: 200;
+  border: 1px solid var(--gray-color);
+  padding: 8px 8px;
+}
+
+.header__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+.header__menu li {
+  padding: 0 86px;
+}
+
+.header__menu a {
+  font-size: 18px;
+  font-weight: 700;
+}

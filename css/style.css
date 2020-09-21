@@ -133,8 +133,45 @@ header .container {
   font-size: 18px;
 }
 
+.fas {
+  margin-left: 15px;
+}
+
 .content__img img {
   width: 821px;
+  position: relative;
+}
+
+/* Box Profile */
+.content__profile {
+  width: 410px;
+  background-color: var(--dark-color);
+  border-radius: 5px;
+
+  position: absolute;
+  bottom: 90px;
+  right: 400px;
+  padding: 20px 20px;
+}
+
+.content__user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.content__user img {
+  width: 85px;
+  border-radius: 50%;
+}
+
+.content__info {
+  margin-left: 20px;
+}
+
+.content__resume p {
+  font-family: var(--secondary-font);
+  font-size: 34px;
 }
 
 /* Mobile Version */

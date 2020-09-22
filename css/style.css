@@ -157,7 +157,7 @@ header .container {
 .content__user {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .content__user img {
@@ -172,6 +172,13 @@ header .container {
 .content__resume p {
   font-family: var(--secondary-font);
   font-size: 34px;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--dark-color);
+  text-align: center;
+  padding: 40px;
 }
 
 /* Mobile Version */
